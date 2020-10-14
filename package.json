@@ -1,5 +1,5 @@
 {
-	"name": "testyt",
+	"name": "ytdl",
 	"version": "1.0.0",
 	"main": "index.js",
 	"license": "MIT",
@@ -11,14 +11,14 @@
 		"koa-graphql": "^0.7.5",
 		"koa-mount": "^3.0.0",
 		"memory-cache": "^0.2.0",
-		"node-telegram-bot-api": "^0.30.0",
 		"qs": "^6.5.2",
+		"rate-limiter-flexible": "^1.0.3",
 		"uuid": "^3.3.2",
 		"vm2": "^3.6.3",
 		"xfetch-js": "^0.1.4"
 	},
 	"engines": {
-		"node": "10.1.0"
+		"node": ">=10.0.0"
 	},
 	"scripts": {
 		"start": "node index.js"
